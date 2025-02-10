@@ -67,7 +67,7 @@ const EventList = () => {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center px-6">
-          <h1 className="text-5xl font-extrabold tracking-wide text-white">🚀 Upcoming Events</h1>
+          <h1 className="text-5xl font-extrabold tracking-wide text-white"> Upcoming Events</h1>
           <p className="mt-4 text-lg text-gray-300">Don't miss out on amazing events happening soon!</p>
         </div>
       </section>

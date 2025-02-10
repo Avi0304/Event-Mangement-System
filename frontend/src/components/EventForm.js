@@ -24,7 +24,7 @@ const EventForm = () => {
       const res = await createEvent(formData);
       toast.success("Event Created Successfully...");
       socket.emit("newEvent", res.data);
-      setFormData({ name: "", description: "", date: "" });
+      setFormData({ name: "", description: "", date: "", category: "" });
     } catch (error) {
       toast.error("Error Creating Event...");
     }

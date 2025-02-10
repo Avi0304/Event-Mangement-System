@@ -69,9 +69,9 @@ const EventList = () => {
       const response = await updateEvent(eventId, editForm);
       setEditingEventId(null);
       fetchEvents(); // Refresh UI
-      toast.success("🎉 Event updated successfully!");
+      toast.success(" Event updated successfully!");
     } catch (error) {
-      toast.error("❌ Error updating event!");
+      toast.error(" Error updating event!");
     }
   };
 
