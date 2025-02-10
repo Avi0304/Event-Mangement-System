@@ -33,9 +33,6 @@
 ---
 
 
-
----
-
 ## **⚙️ Tech Stack**  
 
 | **Technology**  | **Purpose**  |
