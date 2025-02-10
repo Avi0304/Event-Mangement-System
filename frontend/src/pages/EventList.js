@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import AttendeeList from "../components/AttendeeList";
 import useTitle from "../hooks/useTitle";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://event-mangement-system-78ip.onrender.com");
 
 const EventList = () => {
   const [events, setEvents] = useState([]);

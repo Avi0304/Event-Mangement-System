@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000/api" });
+const API = axios.create({ baseURL: "https://event-mangement-system-78ip.onrender.com/api" });
 
 // Attach token for authenticated requests
 API.interceptors.request.use((req) => {

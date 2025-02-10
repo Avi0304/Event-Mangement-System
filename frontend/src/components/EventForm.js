@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://event-mangement-system-78ip.onrender.com");
 
 const EventForm = () => {
   const [formData, setFormData] = useState({

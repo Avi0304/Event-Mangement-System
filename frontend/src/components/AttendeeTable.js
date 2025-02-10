@@ -26,12 +26,12 @@ const AttendeeTable = () => {
   //  Function to Format Date & Time Separately
   const formatDate = (dateString) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString(); // Example: 01/30/2024
+    return date.toLocaleDateString(); 
   };
 
   const formatTime = (dateString) => {
     const date = new Date(dateString);
-    return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: true }); // Example: 10:30 AM
+    return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: true }); 
   };
 
   return (

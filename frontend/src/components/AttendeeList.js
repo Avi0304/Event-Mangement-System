@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import io from "socket.io-client";
 import { getEventById } from "../api/api";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://event-mangement-system-78ip.onrender.com");
 
 const AttendeeList = ({ eventId }) => {
   const [attendeeCount, setAttendeeCount] = useState(0);

@@ -80,9 +80,9 @@ const EventList = () => {
       try {
         await deleteEvent(eventId);
         fetchEvents(); // Refresh UI
-        toast.success("🗑️ Event deleted successfully!");
+        toast.success(" Event deleted successfully!");
       } catch (error) {
-        toast.error("❌ Error deleting event!");
+        toast.error(" Error deleting event!");
       }
   };
 
