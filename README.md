@@ -32,8 +32,7 @@
 
 ---
 
-## **📸 Screenshots**  
-🚀 **Coming Soon...**  
+
 
 ---
 
